@@ -9,7 +9,6 @@ Before running the Laravel application, ensure that you have the following insta
 - PHP >= 7.3
 - Composer
 - MySQL or any other supported database
-- Laravel 8.x or above
 
 ## Installation
 
