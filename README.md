@@ -48,7 +48,7 @@ php artisan migrate
 ### 2. Start the Queue Worker
 Start the queue worker to process background jobs:
 ```bash
-php artisan migrate
+php artisan queue:work
 ```
 
 ### 3. Start the Scheduled Commands
