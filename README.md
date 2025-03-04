@@ -15,8 +15,8 @@ Before running the Laravel application, ensure that you have the following insta
 
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/yourusername/your-laravel-project.git
-    cd your-laravel-project
+    git clone https://github.com/hnyhmo/mrge.git
+    cd mrge
     ```
 
 2. Install the required dependencies using Composer:
@@ -44,3 +44,18 @@ After setting up the environment, you can run the application with the following
 To apply the database migrations, run:
 ```bash
 php artisan migrate
+
+### 2. Start the Queue Worker
+Start the queue worker to process background jobs:
+```bash
+php artisan migrate
+
+### 3. Start the Scheduled Commands
+Start the scheduler to run scheduled tasks:
+```bash
+php artisan schedule:work
+
+### 4. Serve the Application
+This will start the Laravel development server, and you can access the application in your browser at http://127.0.0.1:8000
+```bash
+php artisan serve
